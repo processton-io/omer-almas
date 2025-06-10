@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Header />
-      <main className='main-wrapper relative overflow-hidden space-top-64 my-12'>
+      <main className='main-wrapper relative overflow-hidden space-top-64'>
         {children.type.name === 'Dev404Page' ? (
           <div className='container mx-auto'>
             <div className=''>

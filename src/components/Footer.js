@@ -6,7 +6,7 @@ import { faFacebookF, faInstagram, faLinkedin, faTwitter, faYoutube } from "@for
 import LinkInternalExternal from "./LinkInternalExternal";
 
 const Footer = () => {
-    return  (<footer className="border-t">
+    return  (<footer className="hidden">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div className="md:flex md:justify-between md:space-x-24">
               <div className="md:flex-1 grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 pt-12">

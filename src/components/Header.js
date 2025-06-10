@@ -9,9 +9,9 @@ const Layout = () => {
 
   const [showDropDown, setShowDropDown] = React.useState(false);
   return (
-    <nav className="border-b border-gray-200 dark:bg-gray-900 w-screen z-20 ">
+    <nav className="w-screen z-20 hidden">
         <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-2 px-8 xl:px-0">
-          <LinkInternalExternal to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <LinkInternalExternal to="/" className="flex items-center space-x-3 rtl:space-x-reverse hidden">
               <ResponsiveImage
                 alt={main.photo.alt}
                 src={main.photo.image}
