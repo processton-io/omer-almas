@@ -24,11 +24,12 @@ exports.createPages = async ({ actions, graphql }) => {
             throw new Error("Error while running GraphQL query.");
         }
 
-        pagesResults?.data?.pages?.nodes.forEach((node) => {
+        // Only create pages if there are valid nodes with a permalink
+        const nodes = pagesResults?.data?.pages?.nodes || [];
+        nodes.forEach((node) => {
+            if (!node.permalink) return; // Skip if no permalink
             const component = path.resolve(`src/templates/page.js`);
-
             console.log(`Creating page ${node.title} with ${node.permalink}`);
-
             createPage({
                 path: node.permalink,
                 component,
