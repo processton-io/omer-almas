@@ -1,0 +1,65 @@
+{
+  "social_links": [
+    {
+      "platform": "facebook",
+      "permalink": "https://facebook.com"
+    },
+    {
+      "platform": "twitter",
+      "permalink": "https://twitter.com"
+    },
+    {
+      "platform": "linkedin",
+      "permalink": "https://www.linkedin.com"
+    },
+    {
+      "platform": "youtube",
+      "permalink": "https://www.youtube.com"
+    },
+    {
+      "platform": "instagram",
+      "permalink": "https://instagram.com"
+    }
+  ],
+  "copyright": "© 2025. All Rights Reserved.",
+  "show_social_links": true,
+  "section_1_title": "Resources",
+  "section_2_title": "Follow us",
+  "section_1_links": [
+    {
+      "name": "ABC",
+      "permalink": "/ABC"
+    },
+    {
+      "name": "Styles",
+      "permalink": "/Styles"
+    }
+  ],
+  "section_2_links": [
+    {
+      "name": "Github",
+      "permalink": "https://github.com"
+    },
+    {
+      "name": "Discord",
+      "permalink": "/Discord"
+    }
+  ],
+  "photo": {
+    "image": "/images/logo.jpg",
+    "alt": "Omer Almas"
+  },
+  "section_3_title": "Legal",
+  "section_3_links": [
+    {
+      "name": "Privacy Policy",
+      "permalink": "/privacy-policy"
+    },
+    {
+      "name": "Terms & Conditions",
+      "permalink": "/terms-and-conditions/"
+    }
+  ],
+  "title": "Omer Almas",
+  "description": "I am omer almas"
+}
