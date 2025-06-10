@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://nvdee.com",
-    title: "Nvdee",
-    description: `Nvdee is here to share that load—whether it’s accelerating AI models, optimizing real-time processing, or scaling demanding workloads.`,
+    siteUrl: "https://omeralmas.com",
+    title: "Omer Almas",
+    description: ``,
     twitterUsername: `@processton`,
     image: `/static/images/logo.jpg`,
   },
@@ -21,7 +21,7 @@ module.exports = {
         manualInit: true,
         modulePath: `${__dirname}/cms/cms.js`,
         enableIdentityWidget: true,
-        htmlTitle: `Content Manager - Nvdee`,
+        htmlTitle: `Content Manager - Omer Almas`,
         htmlFavicon: `static/images/logo.jpg`,
       },
     },
@@ -46,13 +46,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Nvdee`,
-        short_name: `Nvdee`,
+        name: `Omer Almas`,
+        short_name: `Omer Almas`,
         start_url: `/`,
         background_color: `#0c4773`,
         theme_color: `#0c4773`,
         display: `standalone`,
-        icon: `static/images/nvdee-blue.png`, 
+        icon: `static/images/logo.jpg`, 
       },
     },
     {

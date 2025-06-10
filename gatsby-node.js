@@ -11,28 +11,9 @@ exports.createPages = async ({ actions, graphql }) => {
 
         const pagesResults = await graphql(`
             {
-                pages: allPagesJson {
+                pages: allSitePage {
                     nodes {
                         id
-                        permalink
-                        title
-                        seo {
-                            title
-                            ogimage
-                            description
-                        }
-                        blocks {
-                            group
-                            title
-                            description
-                            type
-                            address
-                            contact_number
-                            email_address
-                            url
-                            content
-                            variant
-                        }
                     }
                 }
             }
